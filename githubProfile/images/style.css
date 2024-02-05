@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.search_container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.content{
+    display: flex;
+    margin-top: 2rem;
+    width: 50%;
+}
+.content input{
+    margin-left: 13rem;
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+.content button{
+    padding: 0.5rem 1rem;
+    background-color: rgb(165, 18, 165);
+    color: white;
+    border: none;
+}
+.content button:hover{
+    background-color: rgb(39, 3, 39);
+}
+.content button:active{
+    background-color: rgb(255, 104, 255);
+}
+.avtar{
+    display: flex;
+    align-items: flex-end;
+}
+.profile_box{
+    padding: 3rem;
+    margin-top: 4rem;
+    width: 150%;
+    box-shadow: 1px 1px 10px rgb(97, 94, 94);
+}
+.avtar img{
+    margin-top: 2rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+.self h1{
+    font-size: 1.5rem;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.left button{
+    margin-top: 1.5rem;
+    padding: 4px 10px;
+    background-color: rgb(131, 50, 50);
+    color: white;
+    border-radius: 3px;
+}
+.status{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.profile_box:hover{
+    transform: rotate(-2deg) scale(1.01);
+    transition: 0.5s ease-in;
+}
+.profile_box_container{
+    width: 200%;
+    height: 100vh;
+}
+/* .hide{
+    display: none;
+} */
